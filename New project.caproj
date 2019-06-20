@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>23rkg2au43l6r</unique-id>
+    <saved-with-version>25500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Dinokung" sid="813398548947448">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="193595420996684">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="10" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="677863190280927" speed="5">
+                    <frame duration="1" hotspotX="0.897574" hotspotY="0.515306" original-source="D:\อภิภู\freedinosprite\png\Idle (10).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.90027" hotspotY="0.520202" original-source="D:\อภิภู\freedinosprite\png\Idle (1).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.90027" hotspotY="0.516539" original-source="D:\อภิภู\freedinosprite\png\Idle (2).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.9" hotspotY="0.511568" original-source="D:\อภิภู\freedinosprite\png\Idle (3).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.899729" hotspotY="0.507772" original-source="D:\อภิภู\freedinosprite\png\Idle (4).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.894595" hotspotY="0.505208" original-source="D:\อภิภู\freedinosprite\png\Idle (5).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.891599" hotspotY="0.503916" original-source="D:\อภิภู\freedinosprite\png\Idle (6).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.886179" hotspotY="0.502618" original-source="D:\อภิภู\freedinosprite\png\Idle (7).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.889189" hotspotY="0.506494" original-source="D:\อภิภู\freedinosprite\png\Idle (8).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.894595" hotspotY="0.511568" original-source="D:\อภิภู\freedinosprite\png\Idle (9).png">
+                        <collision-poly>
+                            <point x="0.262706" y="0.563948" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0300554" />
+                            <point x="1" y="0.381953" />
+                            <point x="0.701265" y="0.491504" />
+                            <point x="0.739302" y="0.868089" />
+                            <point x="0.872838" y="1" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0170429" y="0.501962" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="503550445333598" speed="10">
+                    <frame duration="1" hotspotX="0.743719" hotspotY="0.479714" original-source="D:\อภิภู\freedinosprite\png\Run (4).png">
+                        <collision-poly>
+                            <point x="0.263343" y="0.41787" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.166346" />
+                            <point x="0.891502" y="0.495699" />
+                            <point x="0.613851" y="0.452839" />
+                            <point x="0.878717" y="0.81464" />
+                            <point x="0.45726" y="0.916468" />
+                            <point x="0.380177" y="0.816229" />
+                            <point x="0.206786" y="1" />
+                            <point x="0.177878" y="0.941357" />
+                            <point x="0" y="0.587002" />
+                            <point x="0" y="0.237819" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.735849" hotspotY="0.470752" original-source="D:\อภิภู\freedinosprite\png\Run (1).png">
+                        <collision-poly>
+                            <point x="0.263343" y="0.41787" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.166346" />
+                            <point x="0.891502" y="0.495699" />
+                            <point x="0.616209" y="0.505764" />
+                            <point x="0.673528" y="0.739431" />
+                            <point x="0.561034" y="0.835688" />
+                            <point x="0.632535" y="1" />
+                            <point x="0.206786" y="1" />
+                            <point x="0.227407" y="0.802082" />
+                            <point x="0" y="0.587002" />
+                            <point x="0" y="0.237819" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.743719" hotspotY="0.496296" original-source="D:\อภิภู\freedinosprite\png\Run (2).png">
+                        <collision-poly>
+                            <point x="0.263343" y="0.41787" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.166346" />
+                            <point x="0.891502" y="0.495699" />
+                            <point x="0.613851" y="0.452839" />
+                            <point x="0.863641" y="0.883776" />
+                            <point x="0.45726" y="0.916468" />
+                            <point x="0.380177" y="0.816229" />
+                            <point x="0.309801" y="0.990124" />
+                            <point x="0.040201" y="0.736419" />
+                            <point x="0" y="0.587002" />
+                            <point x="0" y="0.237819" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.781176" hotspotY="0.613757" original-source="D:\อภิภู\freedinosprite\png\Run (3).png">
+                        <collision-poly>
+                            <point x="0.350402" y="0.478717" />
+                            <point x="0.514589" y="0.138468" />
+                            <point x="0.683438" y="0" />
+                            <point x="0.85579" y="0.0914688" />
+                            <point x="1" y="0.227193" />
+                            <point x="0.76209" y="0.768186" />
+                            <point x="0.990588" y="0.807337" />
+                            <point x="0.681069" y="0.994535" />
+                            <point x="0.492554" y="0.792129" />
+                            <point x="0.309588" y="0.92734" />
+                            <point x="0.20208" y="0.830688" />
+                            <point x="0" y="0.994267" />
+                            <point x="0.112941" y="0.631976" />
+                            <point x="0.136471" y="0.248401" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.741093" hotspotY="0.460274" original-source="D:\อภิภู\freedinosprite\png\Run (5).png">
+                        <collision-poly>
+                            <point x="0.263343" y="0.41787" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.166346" />
+                            <point x="0.891502" y="0.495699" />
+                            <point x="0.699361" y="0.685716" />
+                            <point x="0.546175" y="0.855736" />
+                            <point x="0.711417" y="0.987701" />
+                            <point x="0.60583" y="1" />
+                            <point x="0.273294" y="0.978082" />
+                            <point x="0.234885" y="0.886563" />
+                            <point x="0" y="0.587002" />
+                            <point x="0" y="0.237819" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.74495" hotspotY="0.505" original-source="D:\อภิภู\freedinosprite\png\Run (6).png">
+                        <collision-poly>
+                            <point x="0.263343" y="0.41787" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.166346" />
+                            <point x="0.848573" y="0.533199" />
+                            <point x="0.520416" y="0.802839" />
+                            <point x="0.800434" y="0.97214" />
+                            <point x="0.310796" y="0.923968" />
+                            <point x="0.324621" y="0.838729" />
+                            <point x="0.302745" y="0.8175" />
+                            <point x="0.248585" y="1" />
+                            <point x="0" y="0.587002" />
+                            <point x="0" y="0.237819" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.761538" hotspotY="0.562654" original-source="D:\อภิภู\freedinosprite\png\Run (7).png">
+                        <collision-poly>
+                            <point x="0.263343" y="0.41787" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.166346" />
+                            <point x="0.891502" y="0.495699" />
+                            <point x="0.642056" y="0.74768" />
+                            <point x="0.919742" y="0.851496" />
+                            <point x="0.523927" y="0.990178" />
+                            <point x="0.354536" y="0.833428" />
+                            <point x="0.140119" y="0.909091" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.587002" />
+                            <point x="0" y="0.237819" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.741855" hotspotY="0.46934" original-source="D:\อภิภู\freedinosprite\png\Run (8).png">
+                        <collision-poly>
+                            <point x="0.263343" y="0.41787" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.166346" />
+                            <point x="0.891502" y="0.495699" />
+                            <point x="0.613851" y="0.452839" />
+                            <point x="0.878717" y="0.81464" />
+                            <point x="0.45726" y="0.916468" />
+                            <point x="0.387696" y="0.990757" />
+                            <point x="0.206786" y="1" />
+                            <point x="0.177878" y="0.941357" />
+                            <point x="0" y="0.587002" />
+                            <point x="0" y="0.237819" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="12" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="857616949620865" speed="20">
+                    <frame duration="1" hotspotX="0.90027" hotspotY="0.520202" original-source="D:\อภิภู\freedinosprite\png\Jump (1).png">
+                        <collision-poly>
+                            <point x="0.343569" y="0.536093" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="1" y="0.0551533" />
+                            <point x="1" y="0.344976" />
+                            <point x="0.685092" y="0.504414" />
+                            <point x="0.795906" y="0.824697" />
+                            <point x="0.665291" y="0.873999" />
+                            <point x="0.89683" y="1" />
+                            <point x="0.298755" y="1" />
+                            <point x="0.279024" y="0.85125" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0116521" y="0.505544" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.703125" hotspotY="0.439528" original-source="D:\อภิภู\freedinosprite\png\Jump (2).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.701571" hotspotY="0.432836" original-source="D:\อภิภู\freedinosprite\png\Jump (3).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.711688" hotspotY="0.415144" original-source="D:\อภิภู\freedinosprite\png\Jump (4).png">
+                        <collision-poly>
+                            <point x="0.211003" y="0.404859" />
+                            <point x="0.449073" y="0.114154" />
+                            <point x="0.609642" y="0" />
+                            <point x="0.952658" y="0.127021" />
+                            <point x="1" y="0.484947" />
+                            <point x="0.605161" y="0.493456" />
+                            <point x="0.60414" y="0.744495" />
+                            <point x="0.796239" y="0.86223" />
+                            <point x="0.487568" y="0.924282" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="0.869452" />
+                            <point x="0.198064" y="0.696089" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.737349" hotspotY="0.538462" original-source="D:\อภิภู\freedinosprite\png\Jump (5).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.737981" hotspotY="0.546366" original-source="D:\อภิภู\freedinosprite\png\Jump (6).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.742788" hotspotY="0.55443" original-source="D:\อภิภู\freedinosprite\png\Jump (7).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.740385" hotspotY="0.547739" original-source="D:\อภิภู\freedinosprite\png\Jump (8).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.73913" hotspotY="0.538462" original-source="D:\อภิภู\freedinosprite\png\Jump (9).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.762376" hotspotY="0.46861" original-source="D:\อภิภู\freedinosprite\png\Jump (10).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.761671" hotspotY="0.468293" original-source="D:\อภิภู\freedinosprite\png\Jump (11).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.781638" hotspotY="0.488127" original-source="D:\อภิภู\freedinosprite\png\Jump (12).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="8" loop="0" name="DEAD" pingpong="0" repeatcount="1" repeatto="0" sid="197816755334492" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\freedinosprite\png\Dead (1).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\freedinosprite\png\Dead (2).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\freedinosprite\png\Dead (3).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\freedinosprite\png\Dead (4).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\freedinosprite\png\Dead (5).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\freedinosprite\png\Dead (6).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\freedinosprite\png\Dead (7).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\freedinosprite\png\Dead (8).png">
+                        <collision-poly>
+                            <point x="0.198016" y="0.556295" />
+                            <point x="0.345177" y="0.276034" />
+                            <point x="0.518733" y="0.0117994" />
+                            <point x="0.773438" y="0.0147493" />
+                            <point x="1" y="0.221239" />
+                            <point x="0.986979" y="0.519565" />
+                            <point x="0.59375" y="0.572171" />
+                            <point x="0.552083" y="0.83612" />
+                            <point x="0.713542" y="1" />
+                            <point x="0.405302" y="1" />
+                            <point x="0.091208" y="1" />
+                            <point x="0.195466" y="0.884078" />
+                            <point x="0" y="0.587002" />
+                            <point x="0.0520834" y="0.106554" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="304830976139445">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="BG" sid="897169339633093">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="524978997413460" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50056" original-source="D:\อภิภู\wintertileset\png\BG\BG.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="vbvb" sid="991154276379539">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732148092408221" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="-1.95652" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Flor2" sid="636605801008446">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="875925027465553" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\wintertileset\png\Tiles\3.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Flor" sid="583298820377518">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770751469339836" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\อภิภู\wintertileset\png\Tiles\2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="894428235323098">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="578010286658093">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="655008403742425" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.624413" original-source="D:\อภิภู\wintertileset\png\BG\BG.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="1" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

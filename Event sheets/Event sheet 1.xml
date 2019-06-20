@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="585488731041803">
+            <conditions>
+                <condition id="7" name="On any key released" sid="854406976433417" type="Keyboard" />
+                <condition behavior="Platform" id="2" name="Is on floor" sid="918154681883594" type="Dinokung" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="942360408530337" type="Dinokung">
+                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="517601806192371">
+            <conditions>
+                <condition id="2" name="Key is down" sid="756529559694738" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="427448308700050" type="Dinokung" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="808022821796643" type="Dinokung">
+                    <param id="0" name="Animation">&quot;Run&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="202355781842615">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="609516241409200" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="214916725198980" type="Dinokung">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="450220928303060">
+                    <conditions>
+                        <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="954733166661080" type="Dinokung" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="185051834956392" type="Dinokung">
+                            <param id="0" name="Animation">&quot;Jump&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="255535188884255">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="976337608614872" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="873164105145348" type="Dinokung">
+                    <param id="0" name="Animation">&quot;DEAD&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
